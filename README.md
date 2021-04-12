@@ -1,6 +1,6 @@
 # DSAI_HW2_F74062052
 ## Run Code 
-  python trader.py --training "training.csv" --testing "testing.csv" --output output.csv
+  python trader.py --training "training_data.csv" --testing "testing_data.csv" --output output.csv
 ## data analysis:
   這邊因模型簡易緣故，僅使用開盤價格來做訓練及預測。
   因測試資料僅19筆，故訓練資料只往前拿80筆，符合80/20法則。
